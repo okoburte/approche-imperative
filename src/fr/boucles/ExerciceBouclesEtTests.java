@@ -25,7 +25,7 @@ public class ExerciceBouclesEtTests {
         }
 
         for(int value: array) {
-            if(value%2 == 1) System.out.println(value);
+            if(value%2 != 0) System.out.println(value);
         }
     }
 }
