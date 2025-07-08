@@ -42,6 +42,7 @@ public class Interactif21Batons {
                 else System.out.println("Il reste encore " + nbBaton + " disponible !");
 
                 tourJoueur = true;
+
             }
         }
     }
