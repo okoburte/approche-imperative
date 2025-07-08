@@ -13,11 +13,6 @@ public class FabriquerMur {
         System.out.println("nombre de brique de longueur 5 ?");
         int nbBig = scanner.nextInt();
 
-        if(nbBig*5 <= longueur) {
-            System.out.println((longueur-nbBig*5) <= nbSmall);
-        }
-        else {
-            System.out.println(longueur%5 <= nbSmall);
-        }
+        System.out.println(Math.max(longueur - nbBig * 5, longueur % 5) <= nbSmall);
     }
 }

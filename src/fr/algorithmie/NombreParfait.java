@@ -2,7 +2,7 @@ package fr.algorithmie;
 
 public class NombreParfait {
     public static void main(String[] args) {
-        int numberInt = 6;
+        int numberInt = 28;
         int sommeDiv = 0;
 
         for (int i = 1; i < numberInt; i++) {
@@ -11,6 +11,6 @@ public class NombreParfait {
             }
         }
 
-        System.out.println(sommeDiv == numberInt);
+        System.out.println(numberInt + " est un nombre parfait : " + (sommeDiv == numberInt));
     }
 }

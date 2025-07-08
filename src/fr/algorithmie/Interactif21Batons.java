@@ -31,7 +31,8 @@ public class Interactif21Batons {
 
                 tourJoueur = false;
             } else {
-                int reponseBot = (int) Math.ceil(Math.random() * 3);
+                int reponseBot = (nbBaton - 5) % 3;
+                if (reponseBot == 0) reponseBot = 3;
                 if (nbBaton <= 4) reponseBot = Math.max(1, nbBaton - 1);
 
                 System.out.println("Votre adversaire retire " + reponseBot + " batons.");

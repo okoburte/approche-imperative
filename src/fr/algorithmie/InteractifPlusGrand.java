@@ -7,7 +7,6 @@ public class InteractifPlusGrand {
         Scanner scanner = new Scanner(System.in);
 
         int plusGrand = 0;
-
         for (int i = 0; i < 10; i++) {
             System.out.println("Nombre " + (i + 1) + " :");
             if (i == 0) plusGrand = scanner.nextInt();

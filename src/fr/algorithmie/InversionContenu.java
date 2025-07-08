@@ -12,11 +12,7 @@ public class InversionContenu {
             arrayCopy[i] = array[array.length - 1 - i];
         }
 
-        for (int val : array) {
-            System.out.println(val);
-        }
-        for (int val : arrayCopy) {
-            System.out.println(val);
-        }
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(arrayCopy));
     }
 }

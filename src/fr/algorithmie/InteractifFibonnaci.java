@@ -12,7 +12,7 @@ public class InteractifFibonnaci {
             nb = scanner.nextInt();
         }
 
-        if(nb < 2) System.out.println("F("+ nb +") = "+ nb);
+        if (nb < 2) System.out.println("F(" + nb + ") = " + nb);
         else {
             int n2 = 0;
             int n1 = 1;
@@ -24,7 +24,7 @@ public class InteractifFibonnaci {
                 n1 = fibonnaciValue;
             }
 
-            System.out.println("F("+ nb +") = "+ fibonnaciValue);
+            System.out.println("F(" + nb + ") = " + fibonnaciValue);
         }
     }
 }

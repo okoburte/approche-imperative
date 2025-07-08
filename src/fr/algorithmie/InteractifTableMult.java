@@ -14,7 +14,7 @@ public class InteractifTableMult {
         }
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println(nb*i);
+            System.out.println(nb * i);
         }
     }
 }
